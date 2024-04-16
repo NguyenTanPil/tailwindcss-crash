@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-	prefix: 'tw-',
 	important: '#root',
-	separator: '_',
 	theme: {
 		colors: {
 			blue: '#1fb6ff',
@@ -20,6 +18,9 @@ export default {
 			spacing: {
 				'8xl': '96rem',
 				'9xl': '128rem',
+			},
+			aspectRatio: {
+				'4/3': '4 / 3',
 			},
 		},
 	},

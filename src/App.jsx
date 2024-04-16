@@ -1,8 +1,7 @@
-import './App.css';
-import Configuration from './customization/Configuration';
+import Layout from './Layout';
 
 function App() {
-	return <Configuration />;
+	return <Layout />;
 }
 
 export default App;
