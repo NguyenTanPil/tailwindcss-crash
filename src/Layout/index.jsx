@@ -1,7 +1,8 @@
 // import AspectRatio from './AspectRatio';
-
-import Column from './Column';
+// import Column from './Column';
 // import Container from './Container';
+
+import Break from './Break';
 
 const Layout = () => {
 	return (
@@ -10,7 +11,8 @@ const Layout = () => {
 
 			{/* <AspectRatio /> */}
 			{/* <Container /> */}
-			<Column />
+			{/* <Column /> */}
+			<Break />
 		</div>
 	);
 };
