@@ -1,0 +1,4 @@
+.btn {
+	padding: theme('spacing.4') theme('spacing.2');
+	background-color: theme('colors.gray');
+}
